@@ -34,7 +34,8 @@ RUN pip install \
     -r requirements.txt \
     -r requirements.dev.txt \
     -r requirements.ja.txt \
-    -r requirements.notebooks.txt
+    -r requirements.notebooks.txt \
+    -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 # Copy TTS repository contents:
 COPY . /root
